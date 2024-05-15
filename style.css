@@ -1,0 +1,118 @@
+.unorder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     align-items: stretch;
+}
+.header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+
+}
+li{
+    padding-top: 60px;
+    margin-right: 30px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+    font-weight: bold
+
+}
+/* .icon{
+    font-size: 20px;
+      margin: 10px;
+      color: white;
+} */
+ul li a{
+    text-decoration: none;
+    list-style: none;
+}
+.login-container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: red;
+}
+
