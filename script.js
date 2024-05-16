@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             message.textContent = 'Please provide both a username and a password.';
             return;
         }else{
-            window.location.href = '/web/about.html'; // Redirect to dashboard page on successful login   
+            window.location.href = '/about.html'; // Redirect to dashboard page on successful login   
         }
 
     //     try {
